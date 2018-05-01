@@ -217,3 +217,5 @@ let g:jsx_ext_required = 0
 autocmd BufWritePre *.js Neoformat
 
 let g:SimpylFold_docstring_preview=1
+let g:gradle_path = ./gradle/wrapper
+let g:android_sdk_path = ~/android/android-sdk-linux
