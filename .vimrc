@@ -34,6 +34,9 @@ Plug 'nvie/vim-flake8'
 Plug 'tpope/vim-fugitive'
 Plug 'Lokaltog/powerline'
 Plug 'hsanson/vim-android'
+Plug 'godlygeek/tabular'
+Plug 'plasticboy/vim-markdown'
+Plug 'suan/vim-instant-markdown'
 call plug#end()
 
 "显示行号
@@ -217,5 +220,4 @@ let g:jsx_ext_required = 0
 autocmd BufWritePre *.js Neoformat
 
 let g:SimpylFold_docstring_preview=1
-let g:gradle_path = ./gradle/wrapper
-let g:android_sdk_path = ~/android/android-sdk-linux
+
