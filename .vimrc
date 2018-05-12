@@ -1,5 +1,4 @@
 call plug#begin('~/.vim/plugged')
-
 Plug 'Valloric/YouCompleteMe'
 Plug 'scrooloose/nerdtree'
 Plug 'altercation/vim-colors-solarized'
