@@ -1,4 +1,3 @@
-
 call plug#begin('~/.vim/plugged')
 Plug 'Valloric/YouCompleteMe'
 Plug 'scrooloose/nerdtree'
@@ -37,6 +36,8 @@ Plug 'hsanson/vim-android'
 Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
 Plug 'suan/vim-instant-markdown'
+Plug 'Yggdroot/indentLine'
+Plug 'fholgado/minibufexpl.vim'
 call plug#end()
 
 " Auto add head info
@@ -239,3 +240,7 @@ autocmd BufWritePre *.js Neoformat
 
 let g:SimpylFold_docstring_preview=1
 
+" Plugin indentLine settings.
+let g:indentLine_char = "┆"
+let g:indentLine_enabled = 1
+let g:autopep8_disable_show_diff=1
